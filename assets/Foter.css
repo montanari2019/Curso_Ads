@@ -1,0 +1,22 @@
+/* FOOTER */
+.footer{
+    background-color: #00420C;
+}
+.footer__imagen{
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    padding-top: 20px;
+    border-radius: 20px 40px;
+}
+.footer__text--endereco{
+    text-align:left;
+    padding-bottom: 50px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #f2f2f2;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 18px;
+}

@@ -1,0 +1,55 @@
+/* Header */
+
+/* Pagina Mobile 01 */
+*{
+    margin: 0%; 
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #117A25;
+
+}
+.imagen__menu{
+    padding-left: 1px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.header__titulo{
+    color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    padding-right: 10px;
+    text-align: left;
+}
+.header__titulo--sub{
+    color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    padding-left: 66px;
+    padding-bottom: 20px; 
+    padding-right: 10px;
+    text-align: left;
+}
+.menu{
+    display:block;
+    background-color: #00420C;
+    list-style-type: none;
+}
+.menu__item > a{
+    
+    text-decoration: none;
+    color: #f2f2f2;
+    background-color: #00420C;
+    
+} 
+.menu__item > a:hover{
+    background-color: #f2f2f2;
+    color: #00420C;
+} 
