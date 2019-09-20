@@ -1,60 +1,119 @@
-/* Header */
-
-/* Pagina Mobile 01 */
-*{
-    margin: 0%; 
-    padding: 0%;
-    box-sizing: border-box;
-}
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
+/* font-family: 'Roboto', sans-serif; */
 .header{
     background-color: #117A25;
+}
+
+
+.header__titulo{
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 16px;
+    color: #F2F2F2;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+.header__subTitulo{
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 24px;
+    color: #F2F2F2;
+    line-height: 50px;
+    padding-bottom: 30px;
+    padding-left: 45px;
 
 }
-.imagen__menu{
-    padding-left: 1px;
-    padding-right: 20px;
-    padding-top: 20px;
+@media(min-width: 650px){
+    .header__subTitulo{
+       padding-left: 10px;
+    }
 }
-.header__titulo{
-    color: #f2f2f2;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    padding: 20px;
-    padding-right: 10px;
-    text-align: left;
+
+
+
+
+
+/* MENU MOBIEL */
+.check_box{
+    display: none;
 }
-.header__titulo--sub{
-    color: #f2f2f2;
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    font-weight: bolder;
-    padding-left: 66px;
-    padding-bottom: 20px; 
-    padding-right: 10px;
-    text-align: left;
-}
-.menu{
+
+.barra__lateral{
+    transition: all .2s linear;
+    position: absolute;
+    width: 100%;
+    left: -100%;
     background-color: #00420C;
-    list-style-type: none;
-    padding: 20px;
-    
-    
 }
-.menu__item > a{
-    display: block;
+@media(min-width:650px){
+    .barra__lateral{
+        display: none;
+    }
+}
+
+.header__label--menu{
+    padding-right: 8px;
+}
+@media(min-width: 650px){
+    .header__label--menu{
+        display: none;
+    }
+}
+
+
+.header__menu--item{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    list-style: none;
     text-decoration: none;
-    color: #f2f2f2;
-    background-color: #00420C;
-    margin: 10px;
-    padding: 10px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-} 
-.menu__item > a:hover{
-    background-color: #f2f2f2;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 18px;
+    color: #F2F2F2;
+    padding: 20px;
+    border-bottom: solid 1px #f2f2f2c4;
+    
+
+}
+.header__menu--item:hover{
     color: #00420C;
-} 
+    background-color: #F2F2F2;
+}
+
+
+
+
+
+/*MENU DESKTOP */
+.header__menu--desk{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;  
+}
+.header__menu--item-desk{ 
+    
+    text-decoration: none;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 18px;
+    color: #F2F2F2;
+    padding: 10px;
+    padding-left: 10px;
+
+   
+}
+.header__menu--item-desk:hover{
+    color: #00420C;
+    background-color: #F2F2F2;
+    padding: 10px;
+}
+
+
+/* Media para IPAD PRO  */
+@media(max-width: 1025px){
+    .header__menu--item-desk{
+        padding-left: 30px;
+    }
+}
+
+@media(max-width:650px){
+    .header__menu--item-desk{
+        display: none;
+    }
+}
