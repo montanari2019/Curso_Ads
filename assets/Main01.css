@@ -31,6 +31,7 @@
     .main__paragrafo{
         max-width: 590px;
         padding: 0;;
+        line-height: 30px;
         
     }
 }

@@ -1,0 +1,107 @@
+.main__titulo__02{
+    font-family: 'Roboto', 'sans serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    padding: 50px 0;
+    text-align: center;
+    color: #00420C;
+
+}
+@media(min-width: 650px){
+    .main__titulo__02{
+        text-align: left;
+        padding-left: 10px;
+    }
+}
+
+
+.main__table--mobiel{
+    width: 100%;
+    padding: 0 17px 80px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media(min-width: 650px){
+    .main__table--mobiel{
+        display: none;
+    }
+}
+
+
+
+.main__table--titulo{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', 'sans serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    background: #E5E5E5;
+    padding: 10px;
+    padding-left: 20px;
+    border: 1px solid #000000;
+    
+    
+}
+
+@media(min-width: 650px){
+    .main__table--titulo{
+        
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        border-right: 1px solid #000000;
+        
+    }
+}
+
+.main__table--paragrafo{
+    
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', 'sans serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+@media(min-width: 650px){
+   .main__table--paragrafo{
+        height: 256px;
+        font-size: 16px;
+   }
+}
+
+
+/*INICIO DAS CLASSES TABELA DESKTOP */
+.main__table--desk{
+    width: 50%;
+    margin: -2px;
+        
+}
+@media(max-width: 650px){
+    .main__table--desk{
+        display: none;
+    }
+}
+
+.flexTable{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-bottom: 10%;
+    padding-left: 10px;
+
+}
+
+/* FIM DAS CLASSES TABLEA DESKTOP */

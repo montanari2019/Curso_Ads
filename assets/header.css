@@ -11,6 +11,12 @@
     padding-top: 40px;
     padding-left: 10px;
 }
+@media(min-width: 650px){
+    .header__titulo{
+        padding-top: 60px;
+        font-size: 18px;
+    }
+}
 .header__subTitulo{
     font-family: 'Roboto', 'sans-serif';
     font-size: 24px;
@@ -23,6 +29,8 @@
 @media(min-width: 650px){
     .header__subTitulo{
        padding-left: 10px;
+       padding-bottom: 10px;
+       font-size: 36px;
     }
 }
 
@@ -91,7 +99,7 @@
     
     text-decoration: none;
     font-family: 'Roboto', 'sans-serif';
-    font-size: 18px;
+    font-size: 16px;
     color: #F2F2F2;
     padding: 10px;
     padding-left: 10px;
