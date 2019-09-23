@@ -55,7 +55,7 @@
     position: absolute;
     width: 100%;
     left: -100%;
-    background: rgba(0, 66, 12, 0.9);
+    background: #00420c;
 }
 @media(min-width:650px){
     .barra__lateral{
