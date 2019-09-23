@@ -3,13 +3,17 @@
     background-color: #117A25;
 }
 
+.flex__header{
+    display: flex;
+    align-items: flex-start;
+}
 
 .header__titulo{
     font-family: 'Roboto', 'sans-serif';
     font-size: 16px;
     color: #F2F2F2;
     padding-top: 40px;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 @media(min-width: 650px){
     .header__titulo{
@@ -21,13 +25,16 @@
     font-family: 'Roboto', 'sans-serif';
     font-size: 24px;
     color: #F2F2F2;
-    line-height: 50px;
+    
+    line-height: 30px;
     padding-bottom: 30px;
-    padding-left: 45px;
+    padding-left: 65px;
+    padding-right: 10px;
 
 }
 @media(min-width: 650px){
     .header__subTitulo{
+        line-height: 50px;
        padding-left: 10px;
        padding-bottom: 10px;
        font-size: 36px;
@@ -57,7 +64,8 @@
 }
 
 .header__label--menu{
-    padding-right: 8px;
+    padding-top: 1px;
+    padding-right: 25px;
 }
 @media(min-width: 650px){
     .header__label--menu{

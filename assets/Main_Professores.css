@@ -1,5 +1,6 @@
 .main__professores--img{
-    max-width: 114px;
+    width: 120px;
+    height: 120px;
     border: solid 1px #00420C;
     border-radius: 5px;
     margin: 15px;
