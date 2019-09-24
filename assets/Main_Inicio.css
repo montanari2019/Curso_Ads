@@ -13,7 +13,7 @@
     .main__titulo{
         text-align: left;;
         padding-top: 70px;
-        padding-left: 15px;
+        padding-left: 10px;
     }
 }
 
@@ -30,8 +30,9 @@
 @media(min-width: 650px){
     .main__paragrafo{
         max-width: 590px;
-        padding-left: 15px;
+        padding-left: 10px;
         line-height: 30px;
+        
         
     }
 }
@@ -68,7 +69,7 @@
 @media(min-width: 650px){
     .main__paragrafo--conceito{
         margin-top: 75px;
-        margin-left: 15px;
+        margin-left: 10px;
     }
 }
 .main__paragrafo--nota{
@@ -92,7 +93,7 @@
     .main__paragrafo--img{
         margin: 0;
         margin-top: 30px;
-        margin-left: 15px;
+        margin-left: 10px;
         
         
     }
@@ -101,11 +102,7 @@
     font-size: 18px;
     padding-bottom: 20px;
 }
-@media(min-width: 900px){
-    .main__paragrafo--coordenador{
-        
-    }
-}
+
 @media(min-width: 650px){
     .main__paragrafo--coordenador{
         padding-top: 20px;
