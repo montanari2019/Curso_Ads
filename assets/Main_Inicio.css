@@ -33,6 +33,11 @@
         margin: 0 auto;
     }
 }
+@media(min-width: 1000px){
+    .main__titulo{
+        text-align: left;
+    }
+}
 
 .main__paragrafo{
     display: block; 
@@ -115,10 +120,18 @@
 }
 @media(min-width: 650px){
     .main__paragrafo--img{
-        margin: 0 auto;;
+        margin: 0 auto;
         margin-top: 30px;
         
  
+    }
+}
+@media(min-width: 1000px){
+    .main__paragrafo--img{
+        margin-left: 0;
+    }
+    .main__paragrafo--coordenador{
+        padding-left: 0;
     }
 }
 
@@ -129,9 +142,11 @@
 
 @media(min-width: 650px){
     .main__paragrafo--coordenador{
-        padding-top: 20px;
-        
-        
-        
+        padding-top: 20px;        
+    }
+}
+@media(min-width: 1000px){
+    .main__paragrafo--coordenador{
+        padding-left: 0;
     }
 }
